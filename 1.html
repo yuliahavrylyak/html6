@@ -1,0 +1,135 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h1>My First Bootstrap Page</h1>
+  <p>This is some text.</p>
+</div>
+
+<div class="container-fluid">
+  <h1>Hello World!</h1>
+  <p>Three equal width columns! Try to add a new div with class="col" inside the row class - this will create four equal-width columns.</p>
+  <div class="row">
+    <div class="col" style="background-color:lavender;">.col</div>
+    <div class="col" style="background-color:orange;">.col</div>
+    <div class="col" style="background-color:lavender;">.col</div>
+  </div>
+</div>
+
+<div class="container">
+  <h2>Alerts</h2>
+  <p>The button with class="close" and data-dismiss="alert" is used to close the alert box.</p>
+  <p>The alert-dismissible class adds some extra padding to the close button.</p>
+  <div class="alert alert-success alert-dismissible">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <strong>Success!</strong> This alert box could indicate a successful or positive action.
+  </div>
+  <div class="alert alert-info alert-dismissible">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <strong>Info!</strong> This alert box could indicate a neutral informative change or action.
+  </div>
+  <div class="alert alert-warning alert-dismissible">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <strong>Warning!</strong> This alert box could indicate a warning that might need attention.
+  </div>
+  <div class="alert alert-danger alert-dismissible">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
+  </div>
+  <div class="alert alert-primary alert-dismissible">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <strong>Primary!</strong> Indicates an important action.
+  </div>
+  <div class="alert alert-secondary alert-dismissible">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <strong>Secondary!</strong> Indicates a slightly less important action.
+  </div>
+  <div class="alert alert-dark alert-dismissible">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <strong>Dark!</strong> Dark grey alert.
+  </div>
+  <div class="alert alert-light alert-dismissible">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <strong>Light!</strong> Light grey alert.
+  </div>
+</div>
+
+ <button type="button" class="btn">Basic</button>
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-dark">Dark</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-link">Link</button> 
+ <button type="button" class="btn btn-primary btn-block">Full-Width Button</button> 
+
+ <div class="btn-group">
+  <button type="button" class="btn btn-primary">Apple</button>
+  <button type="button" class="btn btn-primary">Samsung</button>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+       Sony
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Tablet</a>
+      <a class="dropdown-item" href="#">Smartphone</a>
+    </div>
+  </div>
+</div>  
+
+<div class="card" style="width:400px">
+  <img class="card-img-top" src="img_avatar1.png" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">John Doe</h4>
+    <p class="card-text">Some example text.</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="7.jpg" alt="Los Angeles">
+    </div>
+    <div class="carousel-item">
+      <img src="1111.jpg" alt="Chicago">
+    </div>
+    <div class="carousel-item">
+      <img src="111.jpg" alt="New York">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+
+</body>
+</html> 
